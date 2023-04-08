@@ -1,0 +1,40 @@
+{
+    "name": "𝐒𝐎𝐔𝐑𝐂𝐄 𝕄𝔼𝕄𝕋ℍ𝕆ℕ",
+    "description": "〔 سـورس القرش 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊 𓅛 〕التحـديث الجديـد افضـل سـورسـات التشيكر العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : القرش الهيبـه",
+    "logo" : "https://telegra.ph/file/cde2b51203fbdab57fac5.jpg",
+    "stack": "container",
+    "repository": "https://github.com/perdark/per-sed",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/OMAR1211/CHK",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "12664498",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "c1267cbd742729575b284495dfd9f068",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
