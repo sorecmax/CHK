@@ -313,7 +313,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await fifthon.send_message(event.chat.id, "✪ !اجاك متاح\n[𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊](https://t.me/memthon)")
+                        await fifthon.send_message(event.chat.id, "✪ !اجاك متاح\n[𝕊𝕆𝕌ℝℂ𝔼 𝕄𝔼𝕄𝕋ℍ𝕆ℕ](https://t.me/memthon)")
             else:
                 pass
             trys += 1
@@ -321,7 +321,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "✪ ! خلص الفحص \n[𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊](https://t.me/memthon)") 
+        await event.client.send_message(event.chat_id, "✪ ! خلص الفحص \n[𝕊𝕆𝕌ℝℂ𝔼 𝕄𝔼𝕄𝕋ℍ𝕆ℕ](https://t.me/memthon)") 
         
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -379,7 +379,7 @@ async def _(event):
             trys = ""
             isclaim.clear()
             isclaim.append("off")
-            await fifthon.send_message(event.chat_id, "انتهى التثبيت\n[𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊](https://t.me/memthon)")
+            await fifthon.send_message(event.chat_id, "انتهى التثبيت\n[𝕊𝕆𝕌ℝℂ𝔼 𝕄𝔼𝕄𝕋ℍ𝕆ℕ](https://t.me/memthon)")
         if msg[0] == "يدوي":  # تثبيت يدوي يوزر قناة
             await event.edit(f"✪ حسناً سأحاول تثبيت `{username}` على `{ch}` !")
             msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
